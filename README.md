@@ -1,2 +1,11 @@
-# js-async-await
-ES2017 async await examples
+## Resource Index - async / await
+
+### :memo: Articles & Blog Posts
+
+* [PonyFoo Blog - Understanding JavaScript's async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+
+* [Async Functions TC39 Specification Draft Jan 2016](https://tc39.github.io/ecmascript-asyncawait/)
+
+### :computer: Tutorials
+
+* [egghead.io - Asynchronous JavaScript with async/await](https://egghead.io/courses/asynchronous-javascript-with-async-await)
