@@ -3,5 +3,8 @@
 	"sourceMaps": "inline",
 	"env": {
 		"development": {}
-	}
+	},
+	"plugins": [
+		["transform-runtime"]
+	]
 }
