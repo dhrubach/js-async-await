@@ -1,0 +1,22 @@
+{
+  "name": "js-async-await",
+  "version": "0.0.1",
+  "description": "basic async await examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "es7"
+  ],
+  "author": "dhruba",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
+    "node-fetch": "^1.6.3"
+  }
+}
