@@ -20,14 +20,19 @@ async function showGitHubUserWithAsync(handle) {
 		* 'response.json()' returns a Promise as well, and hence can be
 		* used in a await statement
 		* */
-		const user = await response.json();
-
-		console.log(`Name : ${user.name}`);
-		console.log(`Location : ${user.location}`);
+		return await response.json();
 
 	} catch(ex) {
 		console.log(`Exception thrown by fetch - ${ex.toSource()}`);
 	}
 }
 
-showGitHubUserWithAsync('dhrubach').then(response => console.log(response));
+/*
+* async function returns a Promise object. hence the return
+* value can be used in a Promise chain
+* */
+showGitHubUserWithAsync('dhrubach')
+	.then(user => {
+		console.log(`Name : ${user.name}`);
+		console.log(`Location : ${user.location}`);
+	});
